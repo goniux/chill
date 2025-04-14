@@ -1,8 +1,9 @@
-// Wait until the DOM content is fully loaded before adding the event listener
-document.addEventListener('DOMContentLoaded', function() {
-    // Add the click event listener to the button
-    document.getElementById("unhackButton").onclick = function() {
-        // Open a YouTube video in a new tab
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
-    };
+document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("unhackButton");
+    if (button) {
+        button.addEventListener("click", function () {
+            // Replace with any link you want
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        });
+    }
 });
