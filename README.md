@@ -1,1 +1,1 @@
-(https://goniux.github.io/chill/)
+https://goniux.github.io/chill
