@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Not So Easy</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prank Site</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Not so easy!</h1>
-  </div>
+    <button id="unhackButton">Unhack</button>
+
+    <script>
+        document.getElementById("unhackButton").onclick = function() {
+            // Redirect to another page or a YouTube video
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; // Example: Rickroll link
+        };
+    </script>
 </body>
 </html>
