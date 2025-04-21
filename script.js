@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (button) {
         button.addEventListener("click", function () {
             // Replace with any link you want
-            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            window.location.href = "https://youtu.be/xvFZjo5PgG0?si=RnzRZBEC8EYIB75C";
         });
     }
 });
